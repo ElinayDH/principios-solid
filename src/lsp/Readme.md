@@ -1,8 +1,6 @@
-## Princípio da segregação de interfaces
-**Interface segregation principle**
+## Princípio de substituição de Liskov
+**Liskov substitution principle**
 
-- Classes não devem ser forçados a depender de métodos que não usam
+- Classes derivadas devem por ser substituídas por suas classes base
 
-- Muitas interfaces são melhores que uma interface única
-
-- Evita que classes clientes precisem implementar métodos desnecessários causando um alto acoplamento e baixa coesão
+- Herança deve ser utilizada com cuidado, evitando "Gato extends Cachorro" apenas por possuírem algo em comum
